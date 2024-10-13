@@ -1,3 +1,61 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://prophetarmed.com/'
+languageCode = 'en-gb'
+title = 'Prophet Armed Blog'
+theme = 'typo'
+
+# [taxonomies]
+# tag = 'tags'
+#
+# # Google analytics code
+# googleAnalytics = "G-xxxxxxxxx"
+
+[params]
+# Meta description
+description = "Blog for Revolutionary Politics & Technology"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Welcome'
+homeIntroContent = """
+Welcome to Prophet Armed. This is the website for anything to do with communist politics or technology (usually focused around FOSS) that I feel like writing about.
+"""
+
+# TODO: uncomment when I have posts
+# Collection to display on home
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "github"
+url = "https://github.com/prophetarmed"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+# [[params.menu]]
+# name = "posts"
+# url = "/posts"
+#
+# [[params.menu]]
+# name = "about"
+# url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
