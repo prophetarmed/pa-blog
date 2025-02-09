@@ -22,8 +22,6 @@ hideHeader = false
 homeIntroTitle = 'Welcome'
 homeIntroContent = """
 Welcome to the Prophet Armed blog. This is the website for anything to do with communist politics or technology (usually focused around FOSS) that I feel like writing about.
-
-I am a member of the [Revolutionary Communist Party](https://communist.red) and [Revolutionary Communist International](https://marxist.com).
 """
 
 # TODO: uncomment when I have posts
@@ -41,6 +39,10 @@ breadcrumbs = true
 
 # Social icons
 [[params.social]]
+name = "bluesky"
+url = "https://bsky.app/profile/prophetarmed.com"
+
+[[params.social]]
 name = "github"
 url = "https://github.com/prophetarmed"
 
@@ -49,14 +51,14 @@ url = "https://github.com/prophetarmed"
 name = "home"
 url = "/"
 
+[[params.menu]]
+name = "about"
+url = "/about"
+
 # [[params.menu]]
 # name = "posts"
 # url = "/posts"
 #
-# [[params.menu]]
-# name = "about"
-# url = "/about"
-
 # Syntax highligth on code blocks
 [markup]
 [markup.highlight]
