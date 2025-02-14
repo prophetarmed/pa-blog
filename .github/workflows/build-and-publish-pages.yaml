@@ -1,4 +1,4 @@
-name: Build and publish (Neocities)
+name: Build and publish (Pages)
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 concurrency: # prevent concurrent deploys doing strange things
-  group: build-and-publish-neocities
+  group: build-and-publish-pages
   cancel-in-progress: true
 
 jobs:
