@@ -12,6 +12,12 @@ concurrency: # prevent concurrent deploys doing strange things
   group: build-and-publish-pages
   cancel-in-progress: true
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
